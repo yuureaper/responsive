@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web page</title>
+    </head>
+<style>
+   
+    html {
+        text-align: center;
+        background-image: url(ayokonamagcode.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    
+    h1 {
+       color: rgb(249, 232, 217);
+    }
+
+    .letter {
+        font-size: 25px;
+        color: rgb(255, 110, 49);
+        position:absolute;
+        height: 300px;
+        width: 800px;
+        background-image: url(Picture.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 550px;
+        
+    }
+
+    .para {
+        position:absolute;
+        color: rgb(199, 183, 163);
+        margin-top: 440px;
+        margin-left: 1px;
+        background-color: rgb(109, 41, 50);
+        font-size: 23px;
+    }
+
+    .table {
+        position:absolute;
+        height: 300px;
+        width: 300px;
+        margin-top: 280px;
+        margin-left: 100px;
+    }
+
+    .home {
+        background-color: rgb(253, 247, 228);
+        color:black;
+        border: none;
+        height: 45px;
+        width: 105px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        transition: width  2s;
+        
+    }
+
+    .about,
+    .contact {
+        background-color: rgb(253, 247, 228);
+        color: rgb(97, 103, 122);
+        border: none;
+        height: 45px;
+        width: 105px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        transition: width 2s;
+    
+    }
+     
+    .home:hover,
+    .about:hover,
+    .contact:hover {
+        color: black;
+        width: 150px;
+    }
+    
+    .why{
+        position: absolute;
+        color:rgb(199, 183, 163);
+        background-color: rgb(109, 41, 50);
+        position: absolute;
+        margin-top: -400px;
+        margin-left: -5px;
+        font-size: 20px;
+    }
+
+</style>
+<button class="home">
+    Home
+</button>
+
+<button class="about">
+    About Us
+</button>
+
+<button class="contact">
+    Contact 
+</button>
+
+<body>
+<header>
+ <h1>Welcome to JBNAV ENTERPRISE</h1>
+    <p><br></p>
+</header>
+<div class="letter">
+    <h2><br></h2>
+<div class="birthday">
+<div class="para">
+    <h2>HOW IT STARTED</h2>
+    <p>It was started first as tables and chairs rentals<br> for occasion then after a few years we tried another <br>line of business payment center.</p>
+<div class="why">
+    <h3>Our Services: </h3>
+    <p>Balloons, Balloon Arrangement, Tables and Chairs, and tent rental.<br><br><br></p>
+
+</div>
+</div>
+<img src="Picture1.jpg" class="table">
+</div>
+<script src="PT.js"></script>
+</body>
+</html>
